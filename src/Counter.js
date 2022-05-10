@@ -1,6 +1,8 @@
+import "./App.css"
+
 const Counter = ({ intValue, handleCount, mulDouble }) => {
   return (
-    <div>
+    <div className="container">
       <h1 style={{
         color: intValue % 2 === 0 ? "green" : "red"
       }}>{intValue}</h1>
